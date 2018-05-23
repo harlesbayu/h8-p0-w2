@@ -1,0 +1,11 @@
+STORE "siswa" with 0
+
+WHILE "siswa" < 41
+	CALCULATE "siswa" + 1
+	STORE "remainder" to the result of calculation 
+	IF "remainder = kuku panjang"
+		DISPLAY "hukuman"
+	else "remainder = kuku tidak panjang"
+		DISPLAY "pujian"
+		
+	
