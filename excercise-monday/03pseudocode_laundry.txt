@@ -1,6 +1,0 @@
-STORE "laundry" with 0
-
-WHILE "laundry" < 20
-	ADD "laundry" by 1
-	
-DISPLAY "laundry full"
