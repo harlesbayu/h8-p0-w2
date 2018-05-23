@@ -27,11 +27,11 @@ a. Algoritma
 
 b. Pseudocode
 IF year modulo 4 = 0 and year modulo 100 != 0
-	DO "Leap Year"
+	DISPLAY "Leap Year"
 IF year modulo 4 = 0 and year modulo 100 = 0 and years modulo 400 = 0
-	DO "Leap Year"
+	DISPLAY "Leap Year"
 ELSE
-	DO "Not Leap Year"
+	DISPLAY "Not Leap Year"
 	
 	
 3. Laundry Day
