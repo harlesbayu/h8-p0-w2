@@ -1,8 +1,0 @@
-STORE "massa" with value = 600
-STORE "percepatan" with value = 2
-STORE "result_gaya" without any value
-
-CALCULATE "massa" times "percepatan"
-SET "result_gaya" value with calculation result
-
-DISPLAY "result_gaya"
