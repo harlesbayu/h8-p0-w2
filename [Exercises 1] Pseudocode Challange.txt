@@ -1,0 +1,70 @@
+1. Newton Second Law
+a. Algoritma :
+1.Masukan besar massa benda 600 kg
+2.Masukan besar percepatan 2 m/s2
+3.Kalikan besar massa dengan besar percepatan
+4.Masukan hasilnya kedalam hasil_gaya
+5.Cetak nilai hasil_gaya
+
+b. Pseudocode :
+STORE "massa" with value = 600
+STORE "percepatan" with value = 2
+STORE "result_gaya" without any value
+
+CALCULATE "massa" times "percepatan"
+SET "result_gaya" value with calculation result
+
+DISPLAY "result_gaya"
+
+
+
+2.Tahun Kabisat
+a. Algoritma
+1.Masukan tahun
+2.Jika tahun habis di bagi 4 dan tidak habis di bagi 100, maka cetak 'tahun kabisat'
+3.Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400, maka cetak 'tahun kabisat'
+4.Jika tidak memenuhi semua kondisi diatas cetak 'bukan tahun kabisat'
+
+b. Pseudocode
+IF year modulo 4 = 0 and year modulo 100 != 0
+	DO "Leap Year"
+IF year modulo 4 = 0 and year modulo 100 = 0 and years modulo 400 = 0
+	DO "Leap Year"
+ELSE
+	DO "Not Leap Year"
+	
+	
+3. Laundry Day
+a. Algoritma
+keterangan: Banyak pakaian adalah 20
+1. Masukan pakaian kedalam mesin cuci satu persatu
+2. Apabila pakaian kurang dari 21 lakukan perulangan sampai memenuhi syarat tersebut
+3. Apabila pakaian sudah memenuhi syarat pada langkah ke-3, cetak 'laundry full'
+
+b. Pseudocode
+STORE "laundry" with 1
+
+WHILE "laundry" < 21
+	ADD "laundry" by 1
+	
+DISPLAY "laundry full"
+
+
+4. Periksa Kuku
+a. Algoritma
+keterangan: Jumlah siswa kelas adalah 40 siswa
+1. Periksa kuku setiap siswa
+2. Apabila siswa yang diperiksa kukunya kurang < 41 lakukan perulangan sampai memenuhi syarat tersebut
+3. Didalam perulangan tersebut, jika siswa memiliki kuku panjang, cetak 'hukuman'
+4. Selain itu (kuku tidak panjang) cetak 'pujian'
+
+b. Pseudocode
+STORE "siswa" with 1
+
+WHILE "siswa" < 41
+	CALCULATE "siswa" + 1
+	STORE "remainder" to the result of calculation 
+	IF "remainder = kuku panjang"
+		DISPLAY "hukuman"
+	else "remainder = kuku tidak panjang"
+		DISPLAY "pujian"

@@ -1,1 +1,1 @@
-Exercise second week
+The tasks of second week
