@@ -7,8 +7,8 @@ a. Algoritma :
 5.Cetak nilai hasil_gaya
 
 b. Pseudocode :
-STORE "massa" with value = 600
-STORE "percepatan" with value = 2
+STORE "massa" with value EQUALS TO 600
+STORE "percepatan" with value EQUALS TO 2
 STORE "result_gaya" without any value
 
 CALCULATE "massa" times "percepatan"
@@ -26,9 +26,9 @@ a. Algoritma
 4.Jika tidak memenuhi semua kondisi diatas cetak 'bukan tahun kabisat'
 
 b. Pseudocode
-IF year modulo 4 = 0 and year modulo 100 != 0
+IF year modulo 4 EQUALS TO 0 and year modulo 100 NOT EQUALS TO 0
 	DISPLAY "Leap Year"
-IF year modulo 4 = 0 and year modulo 100 = 0 and years modulo 400 = 0
+IF year modulo 4 EQUALS TO 0 and year modulo 100 EQUALS TO 0 and years modulo 400 EQUALS TO 0
 	DISPLAY "Leap Year"
 ELSE
 	DISPLAY "Not Leap Year"
@@ -44,7 +44,7 @@ keterangan: Banyak pakaian adalah 20
 b. Pseudocode
 STORE "laundry" with 1
 
-WHILE "laundry" < 21
+WHILE "laundry" LESS THAN 21
 	ADD "laundry" by 1
 	
 DISPLAY "laundry full"
@@ -54,17 +54,17 @@ DISPLAY "laundry full"
 a. Algoritma
 keterangan: Jumlah siswa kelas adalah 40 siswa
 1. Periksa kuku setiap siswa
-2. Apabila siswa yang diperiksa kukunya kurang < 41 lakukan perulangan sampai memenuhi syarat tersebut
+2. Apabila siswa yang diperiksa kukunya kurang dari 41 lakukan perulangan sampai memenuhi syarat tersebut
 3. Didalam perulangan tersebut, jika siswa memiliki kuku panjang, cetak 'hukuman'
 4. Selain itu (kuku tidak panjang) cetak 'pujian'
 
 b. Pseudocode
 STORE "siswa" with 1
 
-WHILE "siswa" < 41
+WHILE "siswa" LESS THAN 41
 	CALCULATE "siswa" + 1
 	STORE "remainder" to the result of calculation 
-	IF "remainder = kuku panjang"
+	IF "remainder EQUALS kuku panjang"
 		DISPLAY "hukuman"
-	else "remainder = kuku tidak panjang"
+	else "remainder EQUALS kuku tidak panjang"
 		DISPLAY "pujian"
