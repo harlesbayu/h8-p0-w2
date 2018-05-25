@@ -61,7 +61,7 @@ for (var i=1; i <= 100; i+=5) {
 for (var i=1; i <= 100; i+=9) {
   if (i % 10 === 0) {
     console.log(i + ' KELIPATAN 10');
-  }
+   }
  }
 
 
