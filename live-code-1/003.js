@@ -40,3 +40,22 @@ for(var baris = max; baris >= 1; baris--) {
   console.log(kolom2);
 }
 
+
+/*
+// The second ways
+function soal3(num) {
+  // you can only write your code here!
+  var nums = ''
+  for(var i = 0; i < num; i++){
+    for(var j = num; j > 0; j--){
+      nums += j
+    }
+    nums += '\n'
+  }
+  return nums
+}
+
+// TEST CASES
+console.log(soal3(3));
+*/
+

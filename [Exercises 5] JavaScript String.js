@@ -1,3 +1,7 @@
+/*
+Problem
+Pada tugas ini kamu diminta untuk melakukan penambahan string menggunakan simbol +. Disediakan variable word. Tambahkan nilai word satu per satu dengan nilai variable lain untuk membentuk sebuah kalimat. Jangan lupa menambahkan spasi di setiap kata, dan tampilkan di console hasil penggabungannya! Kamu tidak perlu membuat variable baru!
+*/
 //1. Let's Form a Sentence
 
 var word = 'JavaScript';
@@ -11,7 +15,13 @@ var seventh = 'it!';
 console.log(word + " " + second + " " + third + " " + fourth + " " + fifth + " " + sixth + " " + seventh);
 
 //==================================================================
+/*
+Problem
+Pada tugas ini kamu diminta untuk "memecah" sebuah kalimat dan menampilkan setiap kata didalamnya. Untuk soal nomor ini, gunakan akses satu per satu karakter dari string untuk mengambil setiap huruf dalam kata. Terasa manual? Tidak apa-apa, kita coba ini dulu untuk saat ini.
 
+Hints
+Saat kamu mendapatkan tiap huruf, untuk membentuk setiap kata kamu tinggal menggunakan simbol + untuk membentuk kata tersebut!
+*/
 //2. Index Accessing - 1 by 1
 
 var word = 'wow JavaScript is so cool';
@@ -28,7 +38,10 @@ console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
 //==================================================================
-
+/*
+Problem
+Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
+*/
 //3. Breaking Sentence (Again) using Substring
 
 var word3 = 'wow JavaScript is so cool';
@@ -45,7 +58,10 @@ console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
 //==================================================================
-
+/*
+Problem
+Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
+*/
 //4. Breaking Sentence (yet Again) and Count Each Length
 
 var word4 = 'wow JavaScript is so cool';
